@@ -1,0 +1,25 @@
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
+# Load your dataset
+df = pd.read_csv('sensor_data.csv')
+
+# 1. Handling Missing Data (interpolation)
+df['CO'] = df['CO'].interpolate(method='linear')
+df['PM10'] = df['PM10'].interpolate(method='linear')
+df['PM2.5'] = df['PM2.5'].interpolate(method='linear')
+
+# 2. Normalizing sensor readings
+scaler = MinMaxScaler()
+df[['CO', 'PM10', 'PM2.5', 'AQI']] = scaler.fit_transform(df[['CO', 'PM10', 'PM2.5', 'AQI']])
+
+# 3. Creating time-series features (moving averages and lags)
+df['CO_MA'] = df['CO'].rolling(window=5).mean()  # Moving average
+df['CO_lag_1'] = df['CO'].shift(1)               # 1-sample time lag
+df['CO_lag_2'] = df['CO'].shift(2)               # 2-sample time lag
+
+# 4. Labeling the data (assuming 'CO2_emissions' is in df_co2)
+df_co2 = pd.read_csv('co2_data.csv')
+df = pd.merge(df, df_co2, on='timestamp')
+
+# The dataset is now ready for model training
