@@ -207,8 +207,6 @@ This project demonstrates proficiency in:
 
 **Pratyush Rawat**
 - 🎓 Computer Science & Data Science Student at Manipal University
-- 🏆 2nd Place Winner - Smart India Hackathon (SIH) 2024
-- 🚀 Passionate about environmental sustainability and AI systems
 
 **Connect with me:**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pratyushrawat-blue.svg)](https://linkedin.com/in/pratyushrawat)
