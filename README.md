@@ -16,6 +16,7 @@ The Carbon Neutrality platform revolutionizes how coal mining companies approach
 
 ## 🌟 Project Highlights
 
+
 ### 📊 **Data Processing & Analytics**
 - **Real-time NDIR Sensor Integration** with live emission monitoring
 - **99% Data Consistency** through advanced cleaning and imputation
