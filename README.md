@@ -236,7 +236,5 @@ Built with passion for creating engaging environmental solutions that challenge 
 
 ---
 
-⭐ **Star this repository if you found it interesting!** ⭐
-
 *Your support motivates continued development and improvement*
 
