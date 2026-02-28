@@ -236,5 +236,4 @@ Built with passion for creating engaging environmental solutions that challenge 
 
 ---
 
-*Your support motivates continued development and improvement*
 
