@@ -4,6 +4,7 @@
 [![Machine Learning](https://img.shields.io/badge/ML-TensorFlow%20%7C%20Scikit--Learn-orange.svg)](https://tensorflow.org)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-ReactJS-61DAFB.svg)](https://reactjs.org)
+[![Dashboard](https://img.shields.io/badge/Dashboard-View%20Here-brightgreen.svg)](https://github.com/FLACK277/pbl)
 
 An ML-driven emissions monitoring system for coal mines — combining real-time IoT sensor data, anomaly detection, and neural forecasting to cut manual emission tracking effort by 25%. The platform provides live dashboards, predictive analytics, and actionable carbon neutrality pathways while supporting ESG reporting compliance.
 
@@ -12,6 +13,8 @@ An ML-driven emissions monitoring system for coal mines — combining real-time 
 ## 🎯 Project Overview
 
 The Carbon Neutrality platform revolutionizes how coal mining companies approach environmental sustainability by providing sophisticated emission tracking, predictive analytics, and carbon reduction strategies. It features a **FastAPI backend** serving ML predictions to a **ReactJS frontend** with live emission dashboards, achieving a 20% improvement in operational efficiency and full support for ESG regulatory reporting.
+
+> 🔗 **Live Dashboard**: [github.com/FLACK277/pbl](https://github.com/FLACK277/pbl)
 
 ---
 
